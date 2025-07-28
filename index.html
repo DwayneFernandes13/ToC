@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Baccarat Review Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Baccarat Review Page</h1>
+        <p>Test interactive elements for your crypto baccarat site reviews.</p>
+
+        <!-- 1. Comparison Carousel -->
+        <div class="carousel-container">
+            <h2>List of Best Crypto Gambling Sites</h2>
+            <div class="carousel">
+                <button class="carousel-prev">←</button>
+                <div class="carousel-slides">
+                    <div class="carousel-slide">
+                        <h3>Site A</h3>
+                        <p>Bonus: 100% up to 1 BTC</p>
+                        <p>Cryptos: BTC, ETH, LTC</p>
+                        <p>Rating: 4.8/5</p>
+                        <a href="#review-site-a" class="cta-btn">Read Review</a>
+                    </div>
+                    <div class="carousel-slide">
+                        <h3>Site B</h3>
+                        <p>Bonus: 150% up to 0.5 BTC</p>
+                        <p>Cryptos: BTC, USDT</p>
+                        <p>Rating: 4.5/5</p>
+                        <a href="#review-site-b" class="cta-btn">Read Review</a>
+                    </div>
+                    <div class="carousel-slide">
+                        <h3>Site C</h3>
+                        <p>Bonus: 50 free spins</p>
+                        <p>Cryptos: BTC, ETH</p>
+                        <p>Rating: 4.2/5</p>
+                        <a href="#review-site-c" class="cta-btn">Read Review</a>
+                    </div>
+                </div>
+                <button class="carousel-next">→</button>
+            </div>
+       悠
+
+        <!-- 2. Expandable Review Dropdowns -->
+        <div class="reviews-container">
+            <h2>Our Reviews on the Online Crypto Baccarat Sites</h2>
+            <div class="review-dropdown">
+                <button class="dropdown-toggle">Site A Review</button>
+                <div class="dropdown-content">
+                    <p><strong>Rating:</strong> 4.8/5</p>
+                    <p><strong>Pros:</strong> Fast withdrawals, provably fair games</p>
+                    <p><strong>Cons:</strong> Limited live dealer options</p>
+                    <p><a href="#full-review-a">Read Full Review</a></p>
+                </div>
+            </div>
+            <div class="review-dropdown">
+                <button class="dropdown-toggle">Site B Review</button>
+                <div class="dropdown-content">
+                    <p><strong>Rating:</strong> 4.5/5</p>
+                    <p><strong>Pros:</strong> Generous bonuses, mobile-friendly</p>
+                    <p><strong>Cons:</strong> High wagering requirements</p>
+                    <p><a href="#full-review-b">Read Full Review</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Bonus Comparison Slider -->
+        <div class="bonus-slider-container">
+            <h2>Compare Baccarat Bonuses</h2>
+            <input type="range" min="0" max="2" value="0" id="bonus-slider">
+            <div class="bonus-display">
+                <div class="bonus-card">
+                    <h3 id="bonus-site">Site A</h3>
+                    <p id="bonus-amount">100% up to 1 BTC</p>
+                    <p id="bonus-wager">30x wagering</p>
+                    <p id="bonus-crypto">BTC, ETH, LTC</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Filterable Table -->
+        <div class="table-container">
+            <h2>Find Your Ideal Baccarat Site</h2>
+            <div class="filters">
+                <select id="crypto-filter">
+                    <option value="all">All Cryptos</option>
+                    <option value="BTC">BTC</option>
+                    <option value="ETH">ETH</option>
+                </select>
+                <select id="sort-by">
+                    <option value="rating">Sort by Rating</option>
+                    <option value="bonus">Sort by Bonus</option>
+                </select>
+            </div>
+            <table id="site-table">
+                <thead>
+                    <tr>
+                        <th>Site</th>
+                        <th>Bonus</th>
+                        <th>Cryptos</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-crypto="BTC,ETH" data-rating="4.8" data-bonus="100">
+                        <td>Site A</td>
+                        <td>100% up to 1 BTC</td>
+                        <td>BTC, ETH, LTC</td>
+                        <td>4.8/5</td>
+                    </tr>
+                    <tr data-crypto="BTC,USDT" data-rating="4.5" data-bonus="150">
+                        <td>Site B</td>
+                        <td>150% up to 0.5 BTC</td>
+                        <td>BTC, USDT</td>
+                        <td>4.5/5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
