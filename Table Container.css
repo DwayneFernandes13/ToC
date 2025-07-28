@@ -1,0 +1,28 @@
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    color: #fff;
+}
+.filters {
+    margin-bottom: 10px;
+}
+select {
+    padding: 5px;
+    margin: 0 5px;
+    background: #f0b90b;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #2c2c2c;
+    border-radius: 10px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+th { background: #f0b90b; color: #000; }
+tr.hidden { display: none; }
